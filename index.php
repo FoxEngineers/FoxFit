@@ -37,10 +37,11 @@ class FoxFit
         'banana' => [1, 23, 0.3], // max: 2
         'corn' => [0, 19, 1.4],
         'pho' => [17, 31, 4],
-        'yaourt' => [3.7, 12, 2.5],
+        'vinamilk_yaourt' => [3.1, 15.6, 2.7],
         'bread' => [13.2, 30, 2.5],
-        'milk_no_sugar' => [8.14, 12, 8],
+        'true_milk_no_sugar_220ml' => [6.6, 10.12, 7.26],
         'watermelon' => [1.45, 17.97, 0.36],
+        'kinh_do_milk_bread' => [8, 44.16 ,4.08],
     ];
 
     public function __construct(float $weight, float $TDEE, int $type = self::NORMAL_CALCULATOR)
@@ -193,9 +194,9 @@ $fit->setFoodList([
     'hamburger' => 1,
     'banana' => 2,
     'whey' => 2,
-    'yaourt' => 2,
+    'vinamilk_yaourt' => 2,
     'cheese' => 2,
-    'milk_no_sugar' => 2,
+    'true_milk_no_sugar_220ml' => 2,
     'watermelon' => 1,
 ]);
 $fit->showResult();
